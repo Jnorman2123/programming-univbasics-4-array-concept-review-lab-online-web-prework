@@ -40,15 +40,15 @@ def find_max_value(array)
   x 
 end 
 
-def find_min_value(array)
-  x = array[0]
-  array.length.times do |i|
-    if array[i] < x 
-      x = array[i]
-    end 
-  end 
-  x
-end 
+# def find_min_value(array)
+#   x = array[0]
+#   array.length.times do |i|
+#     if array[i] < x 
+#       x = array[i]
+#     end 
+#   end 
+#   x
+# end 
 
 def find_min_value(array)
   x = array[0]
