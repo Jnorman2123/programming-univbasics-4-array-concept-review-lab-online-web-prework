@@ -24,13 +24,19 @@ end
 #   array.find_index(value_to_find)
 # end 
 
+# def find_max_value(array)
+#   x = array[0]
+#   array.length.times do |i|
+#     if array[i] > x 
+#       x = array[i]
+#     end
+#   end
+#   x 
+# end 
+
 def find_max_value(array)
   x = array[0]
-  array.length.times do |i|
-    if array[i] > x 
-      x = array[i]
-    end
-  end
+  array.length.times { |i| x = array[i] if array[i] > x}
   x 
 end 
 
